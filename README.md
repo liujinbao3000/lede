@@ -9,6 +9,7 @@
    ```
    docker run -itd \
      --name lede-build \
+     -v lede:/home/lede \
      liujinbao/lede-build  /bin/bash
    ```
 1. 进入容器,运行更新脚本
