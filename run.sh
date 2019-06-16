@@ -6,7 +6,7 @@ echo lede:lede | chpasswd
 cat > /home/lede/lede.sh << EOF
 git clone https://github.com/coolsnowwolf/lede
 cd lede
-./scripts/feOeds update -a 
+./scripts/feeds update -a 
 ./scripts/feeds install -a
 make menuconfig 
 #make -j1 V=s
